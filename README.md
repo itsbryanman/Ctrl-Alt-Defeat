@@ -13,6 +13,9 @@ CtrlAltDefeat is a battle-hardened automation framework built for ruthless codeb
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ctrlaltdefeat/framework/main/deploy.sh)"
 ```
 The installer places the `cad` CLI and Operators in `~/.cad` and updates your shell profile.
+## Model Compatibility
+CtrlAltDefeat works with any LLM provider or local runtime. The `cad` CLI communicates via a simple HTTP abstraction so you can plug in Ollama servers, OpenAI Codex, Claude API, or any custom inference endpoint.
+ main
 
 ## Operator Fleet
 | Callsign | Class    | Directive                     |
